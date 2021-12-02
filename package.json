@@ -1,0 +1,20 @@
+{
+  "name": "docker-default",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mx791/docker-default.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mx791/docker-default/issues"
+  },
+  "homepage": "https://github.com/mx791/docker-default#readme"
+}
