@@ -4,6 +4,7 @@ pipeline {
         stage('main') {
             steps {
                 sh 'echo "hello world !"'
+                sh 'docker -v'
             }
         }
     }
