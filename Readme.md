@@ -4,7 +4,7 @@ Simple Docker to dockerize golang application.
 
 For building the image :
 ```
-docker build -t my-golang-app:latest .
+docker build --rm -t my-golang-app:latest .
 ```
 Than run it :
 
