@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "echo 'Build number ${BUILD_ID}'"
-                sh "docker build -t my-app:${BUILD_ID} ."
+                echo "Branch ${BRANCH_NAME}"
             }
         }
     }
